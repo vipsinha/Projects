@@ -1,1 +1,19 @@
+# repo manifest checkout metadata
 0_nxp_basic/.repo/
+
+# BitBake downloads and generated build output
+0_nxp_basic/downloads/
+0_nxp_basic/frdm-imx93/cache/
+0_nxp_basic/frdm-imx93/tmp/
+0_nxp_basic/frdm-imx93/sstate-cache/
+0_nxp_basic/frdm-imx93/bitbake-cookerdaemon.log
+0_nxp_basic/frdm-imx93/bitbake.lock
+0_nxp_basic/build/
+0_nxp_basic/build-*/
+
+# OS and editor files
+.DS_Store
+*~
+*.swp
+__pycache__/
+*.py[cod]
